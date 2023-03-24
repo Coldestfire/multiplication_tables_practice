@@ -1,3 +1,5 @@
+import time
+
 x = input("Tables of Which Number: ")
 print(" ")
 
@@ -33,3 +35,5 @@ if correct_answers == 10:
 
 else:
     print("You got " + str(correct_answers) + " Correct and " + str(wrong_answers) + " Wrong")
+    
+time.sleep(3)
